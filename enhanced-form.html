@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="use of lists, tables and forms in html. as well as media">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    </head>
+    <body>
+    <h1>USE OF HTML LISTS PROPERLY</h1>
+    <p>Shopping List for Birthday Party;</p>
+    <ul>
+        <li>Vanilla strawberry CAKE</li>
+        <li>Soft drinks</li>
+        <ol type="i">
+            <li>Carbonated Drinks i.e Cola, Fanta etc</li>
+            <li>Fruited drinks like mimute maid, afya</li>
+            <li>Fruit wine</li>
+            <li>Water and energy drinks</li>
+        </ol>
+        <li>Party Decorations</li>
+        <li>Presents.</li>
+        <li>Cuttery and plates</li>
+        <li>Food</li>
+        <ul>
+            <li>Pizza</li>
+            <li>Popcorns</li>
+            <li>Garlic Bread fingers</li>
+            <li>Chicken wings</li>
+            <li>Fruits</li>
+        </ul>
+    </ul>
+
+    <h1>EMBEDDING MEDIA IN HTML</h1>
+    <p>adding an audio resource and a video in html file</p>
+    <audio controls>
+        <source src="Carrie Underwood - Jesus, Take The Wheel (Official Video).mp3" type="audio/mpeg">
+    </audio> <br><br>
+    <video controls width="600" height="440">
+        <source src="video.mp4" type="video/mp4">
+    </video><br><br>
+    
+    <h2>USE OF TABLES IN HTML</h2>
+    <table border="2">
+        <thead>
+            <tr>
+            <th>Institution</th>
+            <th>Event</th>
+            <th>Month</th>
+            </tr> 
+        </thead>
+        <tbody>
+            <tr>
+                <td>PLP</td>
+                <td>July cohort orientation</td>
+                <td>July</td>
+            </tr>
+            <tr>
+                <td>Kabarak University</td>
+                <td>Coffee and Code</td>
+                <td>July</td>
+            </tr>
+            <tr>
+                <td>PLP July cohort</td>
+                <td>1ST Hackathon event</td>
+                <td>August</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>FORMS IN HTML</h2>
+    <form action="locaton">
+    
+
+        <label for="name">Name:</label> <br>
+        <input type="text" id ="name" name="name" placeholder="JOAN JOHN"><br><br>
+
+        <label for="email">Email Address: </label><br>
+        <input type="email" id="email" name="email" required autocomplete=".com"><br><br>
+
+        <label for="gender">Gender</label>
+        <input type="radio" id="gender" name="gender">Female
+        <input type="radio" id="gender" name="gender">Male<br><br>
+
+        <label for="contact">Mobile phone:</label><br>
+        <input type="number" id="contact" name="contact" placeholder="0777440891" ><br><br>
+
+       <fieldset>
+        <legend>Comments on course contents</legend>
+        <label for="commnets">Comments:</label>
+        <input type="text" id="comments" name="comments">
+       </fieldset>
+    </form>
+        
+    </body>
+</html>
